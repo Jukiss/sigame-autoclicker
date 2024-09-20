@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "SIGAMEPWNR",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "toggle_feature": {
+      "suggested_key": {
+        "default": "Alt+Z"
+      },
+      "description": "Toggle feature"
+    }
+      },
+  "action": {
+        "default_icon": {
+      "48": "/images/get_started48.png",
+      "96": "/images/get_started96.png"
+    }
+  }
+}
